@@ -12,3 +12,6 @@
 
 ***Task4 :Hello,puts
    Write a C program that print with use puts
+
+***Task5 :Hello,printf
+   Write a C progam that print with use of printf
