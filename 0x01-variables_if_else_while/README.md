@@ -18,3 +18,8 @@
 
 ***Task6 :6.Numberz
     Write a program that prints all single numbers of base 10 ,you can only use the putchar function twice in your code.
+
+***Task7 :7.Smile in the mirror
+    Write a program that prints the lowercase alphabet in reverse, followed by a new line,you can only use putchar twice in your code.
+
+
