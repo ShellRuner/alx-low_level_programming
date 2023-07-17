@@ -22,4 +22,5 @@
 ***Task7 :7.Smile in the mirror
     Write a program that prints the lowercase alphabet in reverse, followed by a new line,you can only use putchar twice in your code.
 
-
+***Task8 :8.Hexadecimal
+    Write a program that print all the numbers of base 16 in lowercase, followed by new line ,you can only use putchar three times in your code.
