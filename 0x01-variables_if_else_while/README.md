@@ -12,3 +12,6 @@
 
 ***Task4 :4.When I was having that alphabet soup, I never thought that it would pay off
     write a program that prints the alphabet in lowercase,followed by a new line and print all the letters except q and e.You can only use the putchar function.
+
+***Task5 :5.Numbers
+   Write a program that prints all single digit numbers of base 10 starting from 0,followed by a new line.
