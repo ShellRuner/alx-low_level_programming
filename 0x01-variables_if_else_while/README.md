@@ -4,4 +4,5 @@
 ***Task1 :1.The last digit
      Write a program that will assign a random number to the variable n each time is executed and print the last digit of the number stored in the variable 
 
-
+***Task2 :2.I sometimes suffer from insomnia .And when I can' fall asleep,I play what I call the alphabet game
+    Write a program that prints the alphabet in lowercase ,followed by a new line.And you can only use putchar twice in your code
