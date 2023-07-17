@@ -9,3 +9,6 @@
 
 ***Task3 :3.alphABET
      Write a program that prints the alphabet in lowercase,and them in uppercase,followed by a new line .You can only use the putchar function
+
+***Task4 :4.When I was having that alphabet soup, I never thought that it would pay off
+    write a program that prints the alphabet in lowercase,followed by a new line and print all the letters except q and e.You can only use the putchar function.
