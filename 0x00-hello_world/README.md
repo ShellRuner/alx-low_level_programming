@@ -22,4 +22,5 @@
 ***Task7 :7.Intel
      Write a script that generates the assembly code (intel syntax) of C code and save it in an output file.
 
-
+***Task8 :8.UNIX is basically a simple operating sstem
+   Write a C program that prints exactly a text to the standard error
