@@ -18,3 +18,8 @@
 
 ***Task6 :6. Size is not grandeur, and territory does not make a nation
     Write  a C program that prints the size of various types on the computer it is compiled and run on.
+
+***Task7 :7.Intel
+     Write a script that generates the assembly code (intel syntax) of C code and save it in an output file.
+
+
