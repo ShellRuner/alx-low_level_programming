@@ -7,4 +7,7 @@
 ***Task2 :2.10 x alphabet
     Write a function that prints 10 times the alphabet,in lowercase,followed by a new line.You can only use _putchar twice in your code and the prototype: void print_alphabet_x10(void);
 
+***Task3 :3.islower
+    Write a function that checks for lowercase character.it must return 1 if c is lowercase and 0 otherwise .The prototype : int _isloser(int c);
+
 
