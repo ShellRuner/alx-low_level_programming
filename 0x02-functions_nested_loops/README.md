@@ -10,4 +10,7 @@
 ***Task3 :3.islower
     Write a function that checks for lowercase character.it must return 1 if c is lowercase and 0 otherwise .The prototype : int _isloser(int c);
 
+***Task4: 4.isalpha
+     Write a function that checks for alphabetic character.And prototype : int _isalpha(int c);
+
 
