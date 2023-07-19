@@ -14,3 +14,5 @@
      Write a function that checks for alphabetic character.And prototype : int _isalpha(int c);
 
 ***Task5:5.Sign
+
+***Task6.
