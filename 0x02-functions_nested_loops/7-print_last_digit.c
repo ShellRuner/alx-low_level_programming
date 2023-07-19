@@ -1,11 +1,10 @@
 #include "main.h"
-int _abs(int);
 
 
 /**
  * print_last_digit - Entry point
  *
- * @n: The argument of the function
+ *@n: The argument of the function print_last_digit
  *
  * Return: Always res an int (Success)
  */
@@ -25,4 +24,31 @@ int print_last_digit(int n)
 	}
 
 	return (res);
+}
+
+/**
+ *_abs - Entry point
+ *
+ * @v: Argument of the function
+ *
+ * Return: Always rs (Success)
+ */
+
+int _abs(int v)
+{
+	int rs;
+
+	if (v < 0)
+	{
+		rs = -v;
+	}
+	else if (v == 0)
+	{
+		rs = v;
+	}
+	else
+	{
+		rs = v;
+	}
+	return (rs);
 }
