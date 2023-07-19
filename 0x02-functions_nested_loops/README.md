@@ -14,5 +14,12 @@
      Write a function that checks for alphabetic character.And prototype : int _isalpha(int c);
 
 ***Task5:5.Sign
+      Write a function that prints the sign of a number.The prototype: int print_sign(int n);
 
-***Task6.
+***Task6.There is no such thing as absolute value in this world.You can only estimate what a thing is worth to you
+   write a function that computes the absolute value of an integer.The prototype : int _abs(int);
+
+***Task7 :7.There are only 3 colors,10 digits, and 7 notes;it's what we do with them that's important
+    Write a function that prints the last digit of a number .The prototype : int print_last_digit(int);
+
+
