@@ -11,9 +11,8 @@ int _islower(int c)
 {
 	int result;
 
-	while ((c >= 48) && (c <= 122))
-	{
-		if (((c >= 48) && (c <= 57)) && ((c >= 97) && (c <= 122)))
+
+		if (((c >= 48) && (c <= 57)) || ((c >= 97) && (c <= 122)))
 		{
 			result = 1;
 		}
@@ -21,8 +20,7 @@ int _islower(int c)
 		{
 			result = 0;
 		}
-		c++;
-	}
+
 
 	return (result);
 }
