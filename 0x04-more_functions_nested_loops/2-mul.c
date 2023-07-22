@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - The function 
+ * mul - The function
  *
  * @a: Firt argument
  *
