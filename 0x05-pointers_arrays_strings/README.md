@@ -18,3 +18,7 @@
 ***Task7 :7.Winning is only half of it .Having fun is the other half
   Write a function that prints half of a string, followed by a new line. Prototype : void puts_half(char *str);
 
+***Task8 :8.Arrays are not pointers
+    Write function that print n elemeents of an array of integers,followed by a new line . Prototype:void print_array(int *a, int n);
+
+
