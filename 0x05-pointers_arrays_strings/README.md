@@ -13,4 +13,8 @@
 ***Task4 :4.I can only go one way .I've not got a reverse gear
     Write a function that prints a string ,in reverse ,followed by a new line. Prototype: void print_rev(char *s);
 
+***Task5 :
+***Task6 :
+***Task7 :7.Winning is only half of it .Having fun is the other half
+  Write a function that prints half of a string, followed by a new line. Prototype : void puts_half(char *str);
 
