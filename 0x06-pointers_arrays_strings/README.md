@@ -1,4 +1,10 @@
-***TASK0 :0.
+***TASK0 :0.strcat
+     Write a function that concatenates two strings. Prototype: char *_strcat(char *dest, char *src);
 
 ***Task1 :1.strncat
-   Write a function that concatenates two strings,it will use at most n bytes from scr
+   Write a function that concatenates two strings,it will use at most n bytes from scr. Prototype : char *_strncat(char *dest,char *src, int n);
+
+***Task2 :@.strncpy
+   Write a function that copies a string,your function should work exactly like strncpy . Prototype: char *_strncpy(char *dest, char *src, int n);
+
+
