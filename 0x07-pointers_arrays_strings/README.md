@@ -6,5 +6,9 @@
     write a function that copies memory area. Prototype: char *_memcpy(char *dest,char *src, unsigned int n);
      It will be similar to memcpy
 
+***Task2 :2.strchr
+    Write a function the locates a character in a string. Prototype: char *_strchr(char *s, char c);
+    It will be similar to strchr
+
 
  
