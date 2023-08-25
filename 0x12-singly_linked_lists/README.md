@@ -3,3 +3,6 @@
 
 ***Task1 :1.List length
 
+***Task2 :2.Add node
+
+
