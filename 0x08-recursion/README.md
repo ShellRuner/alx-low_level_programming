@@ -9,4 +9,8 @@
     Write a function that returns the length of a string.
     Prototype: int _strlen_recursion(char *s);
 
+***Task3: You mustn't be afraid to dream a little bigger, darling
+    Write a function that retruns the factorial of a given number
+    Prototype : int factorial(int n);
+
 
