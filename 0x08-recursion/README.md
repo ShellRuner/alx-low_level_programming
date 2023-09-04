@@ -13,4 +13,8 @@
     Write a function that retruns the factorial of a given number
     Prototype : int factorial(int n);
 
+***Task4:Once an idea has taken hold of the brain it's almost impossible to eradicate
+    Write a function that returns the value of x raised to the power of y.
+    prototype: int _pow_recursion(int x, int y);
+
 
