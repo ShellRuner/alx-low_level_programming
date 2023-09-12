@@ -3,4 +3,6 @@
 
 #define SIZE 1024
 
+int _putchar(int c);
+
 #endif
