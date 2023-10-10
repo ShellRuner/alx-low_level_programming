@@ -24,8 +24,9 @@ int create_file(const char *filename, char *text_content)
 	}
 	else
 	{
-		if (text_content != NULL || == NULL)
-			bytes_write = write(fd, buffer, strlen(text_content));
+		if (text_content == NULL)
+			bytes_write = write(fd, buffer, 0);
+		bytes_write = write(fd, buffer, strlen(text_content));
 		if (bytes_write == -1)
 		{
 			return (-1);
