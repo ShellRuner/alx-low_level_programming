@@ -6,4 +6,8 @@
     Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
     prototype: char *_strdup(char *str);
 
+***Task2: He who is not courageous enough to take risks will accomplish nothing in life
+    Write a function that concatenates two strings.
+    Prototype: char *str_concat(char *s1, char *s2);
+
 
