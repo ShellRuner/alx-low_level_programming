@@ -4,4 +4,7 @@
 *Task1:Silence is argument carried out by other means
    Write a program that prints the number of arguments passed into it.
 
+*Task2:The best argument against democracy is a five-minute conversation with the average voter
+      Write program that prints all arguments it receives.
+
 
