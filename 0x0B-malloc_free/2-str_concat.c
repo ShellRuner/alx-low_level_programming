@@ -13,6 +13,11 @@ char *str_concat(char *s1, char *s2)
 	size_t i = 0, t = 0;
 	char *buff;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
 	buff = malloc(sizeof(char) * strlen(s1) + strlen(s2) + 1);
 	if (buff == NULL)
 		return (NULL);
