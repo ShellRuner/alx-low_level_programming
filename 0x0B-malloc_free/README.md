@@ -10,4 +10,8 @@
     Write a function that concatenates two strings.
     Prototype: char *str_concat(char *s1, char *s2);
 
+***Task3:If you even dream of beating me you'd better wake up and apologize
+   Write a function that returns a pointer to a 2D array of integers
+   Prototype: int **alloc_grid(int width, int height);
+
 
