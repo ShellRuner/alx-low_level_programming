@@ -6,4 +6,8 @@ name ,type= char * ; age,type= float; owner,type= char *
    Write a function that initialize a variable of type struct dog
    prototype: void init_dog(struct dog *d, char *name, float age, char *owner);
 
+***Task2: A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
+   Write a function that prints a struct dog
+   prototype: void print_dog(struct dog *d);
+
 
