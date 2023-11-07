@@ -14,22 +14,23 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	unsigned int i, e;
 
-	d->name = malloc(sizeof(char) * strlen(name) + 1);
-	d->owner = malloc(sizeof(char) * strlen(owner) + 1);
-	if (d->name == NULL || d->owner == NULL || d == NULL)
-		exit(1);
-
-	for (i = 0; i < strlen(name); i++)
+	if (d != NULL)
 	{
-		d->name[i] = name[i];
-	}
-	d->name[i] = '\0';
+		d->name = malloc(sizeof(char) * strlen(name) + 1);
+		d->owner = malloc(sizeof(char) * strlen(owner) + 1);
 
-	d->age = age;
+		for (i = 0; i < strlen(name); i++)
+		{
+			d->name[i] = name[i];
+		}
+		d->name[i] = '\0';
 
-	for (e = 0; e < strlen(owner) + 1; e++)
-	{
-		d->owner[e] = owner[e];
+		d->age = age;
+
+		for (e = 0; e < strlen(owner) + 1; e++)
+		{
+			d->owner[e] = owner[e];
+		}
+		d->owner[e] = '\0';
 	}
-	d->owner[e] = '\0';
 }
