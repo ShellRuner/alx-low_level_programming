@@ -13,10 +13,20 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	size_t i;
+	size_t i = 0;
 
-	for (i = 0 ; i < size; i++)
+	/**
+	for (e = 0 ; array[e] != '\0'; e++)
 	{
-		(*action)(array[i]);
+		count++;
+	}
+	*/
+	if (array != NULL && size != 0)
+	{
+		if (array[i] && i < size)
+		{
+			(*action)(array[i]);
+			i++;
+		}
 	}
 }
