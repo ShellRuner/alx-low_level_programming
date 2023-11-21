@@ -10,4 +10,8 @@
    Write a function that adds a new node at the beginnig of a list_t list
    prototype: list_t *add_node(list_t **head, const char *str);
 
+***Task3: Add node at the end
+  Write a function that adds a new node at the end of a list_t list.
+  Prototype: list_t *add_node_end(list_t **head, const char *str);
+
  
