@@ -21,9 +21,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		index++;
 	}
-
 	binnum = atoi(b);
-
 	for (v = 0; v < index; v++)
 	{
 		if (b[v] >= '0' && b[v] <= '1')
@@ -35,12 +33,10 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		}
 	}
-
 	if (binnum == 0)
 	{
 		return (0);
 	}
-
 	while (binnum && i < index)
 	{
 		digit = binnum % 10;
