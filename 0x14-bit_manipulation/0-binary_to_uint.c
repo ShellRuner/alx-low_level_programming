@@ -10,44 +10,24 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int binnum, index = 0, digit;
-	unsigned int uinumb = 0, i = 0, r = 0, v;
-	unsigned int resultat = 1;
+	unsigned int uinumb = 0;
 
 	if (b == NULL)
 		return (0);
 
-	while (b[index] != '\0')
+	while (*b != '\0')
 	{
-		index++;
-	}
-	binnum = atoi(b);
-	for (v = 0; v < index; v++)
-	{
-		if (b[v] == '0' ||  b[v] == '1')
+		if (*b == '0' || *b == '1')
 		{
-			binnum = atoi(b);
+			uinumb = uinumb * 2 + (*b - '0');
 		}
 		else
 		{
 			return (0);
 		}
+
+		b++;
 	}
-	if (binnum == 0)
-	{
-		return (0);
-	}
-	while (binnum && i < index)
-	{
-		digit = binnum % 10;
-		for (r = 0; r < i; r++)
-		{
-			resultat = resultat * 2;
-		}
-		uinumb += digit * resultat;
-		resultat = 1;
-		binnum = binnum / 10;
-		i++;
-	}
+
 	return (uinumb);
 }
