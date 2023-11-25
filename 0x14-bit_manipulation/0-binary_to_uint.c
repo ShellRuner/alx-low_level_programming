@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 	binnum = atoi(b);
 	for (v = 0; v < index; v++)
 	{
-		if (b[v] >= '0' && b[v] <= '1')
+		if (b[v] == '0' ||  b[v] == '1')
 		{
 			binnum = atoi(b);
 		}
