@@ -10,9 +10,10 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	unsigned int i = 0;
+	unsigned int i = 0, idmax;
 	dlistint_t *cur;
 
+	idmax = dlist_len(head);
 	if (index == 0)
 	{
 		if (head == NULL)
@@ -20,7 +21,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		else
 			return (head);
 	}
-	else if (index > 0)
+	else if (index > 0 && index < idmax - 1)
 	{
 		cur = head;
 		while (i < index)
