@@ -14,7 +14,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	dlistint_t *cur, *ptr;
 
 	ptr = head;
-	while (ptr != NULL)
+	while (ptr != NULL && index > 0)
 	{
 		idmax++;
 		ptr = ptr->next;
