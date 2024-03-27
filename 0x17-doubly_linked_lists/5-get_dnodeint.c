@@ -26,7 +26,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		else
 			return (head);
 	}
-	else if (index > 0 && index < idmax - 1)
+	else if (index > 0 && index < idmax)
 	{
 		cur = head;
 		while (i < index)
